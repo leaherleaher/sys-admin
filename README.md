@@ -1,7 +1,7 @@
-项目说明
+#项目说明
 renren-admin的SpringBoot版，该版本使用JDK10、Mysql5.7
 
-项目结构
+#项目结构
 sys-admin
 ├─db  项目SQL语句
 │
@@ -27,7 +27,7 @@ sys-admin
 
 
 
-本地部署
+#本地部署
 通过git下载源码
 创建数据库sys-admin，数据库编码为UTF-8
 执行doc/db.sql文件，初始化数据【按需导入表结构及数据】
@@ -38,7 +38,7 @@ Eclipse、IDEA运行RenrenApplication.java，则可启动项目
 账号密码：admin/admin
 swagger文档路径：http://localhost:8080/swagger/index.html
 
-项目特点
+#项目特点
 实现前后端分离，通过token进行数据交互，前端再也不用关注后端技术
 引入API模板，根据token作为登录令牌，极大的方便了APP接口开发
 引入swagger文档支持，方便编写API接口文档
