@@ -1,8 +1,6 @@
 package sys.admin.modules.apiAuth;
 
-import com.google.gson.Gson;
 import org.apache.http.HttpStatus;
-import sys.admin.common.utils.R;
 import sys.admin.modules.sys.dao.SysUserDao;
 import sys.admin.modules.sys.entity.SysUserEntity;
 import org.apache.commons.lang.StringUtils;
@@ -14,7 +12,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
