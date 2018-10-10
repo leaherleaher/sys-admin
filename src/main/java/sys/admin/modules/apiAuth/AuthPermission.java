@@ -53,7 +53,7 @@ public class AuthPermission {
         }
         //遍历获取的url集合 返回对应的状态
         for (String url : permsSet) {
-            if (url.contains(requestUrl)) {
+            if (requestUrl.contains(url)) {
                 return true;
             }
         }
